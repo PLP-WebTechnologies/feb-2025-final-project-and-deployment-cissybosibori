@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /style.css
+Allow: /index.js
+Allow: /images/
+Allow: /manifest.json
+Allow: /sw.js
+
+Sitemap: https://foodies.com/sitemap.xml 

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - FooDies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffda08">
+    <link rel="apple-touch-icon" href="images/icon-192x192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="FooDies">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/icon-512x512.png">
+</head>
+<body>
+    <div class="container">
+        <div class="offline-content">
+            <img src="images/logo.png" alt="FooDies Logo" class="offline-logo">
+            <h1>You're Offline</h1>
+            <p>It seems you've lost your internet connection. Please check your connection and try again.</p>
+            <button onclick="window.location.reload()" class="btn btn-primary">Try Again</button>
+            <div class="offline-tips">
+                <h2>While You're Offline</h2>
+                <ul>
+                    <li>Check your internet connection</li>
+                    <li>Try refreshing the page</li>
+                    <li>Browse previously visited pages</li>
+                    <li>Check your device's network settings</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html> 

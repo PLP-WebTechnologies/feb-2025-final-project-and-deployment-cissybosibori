@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore food cultures from around the world. Learn about culinary traditions, food history, and the cultural significance of different cuisines.">
+    <meta name="keywords" content="food culture, culinary traditions, food history, global cuisine, cultural significance">
+    <meta name="author" content="FooDies">
+    <meta name="theme-color" content="#ffda08">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Food Culture - FooDies">
+    <meta property="og:description" content="Explore food cultures from around the world. Learn about culinary traditions, food history, and the cultural significance of different cuisines.">
+    <meta property="og:image" content="images/culture-og.jpg">
+    <meta property="og:url" content="https://www.foodies.com/culture">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Food Culture - FooDies">
+    <meta name="twitter:description" content="Explore food cultures from around the world. Learn about culinary traditions, food history, and the cultural significance of different cuisines.">
+    <meta name="twitter:image" content="images/culture-twitter.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="images/logo.svg" as="image">
+    <link rel="preload" href="fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+    
+    <!-- Preconnect to External Domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Food Culture - FooDies</title>
+</head>
+<body>
+    <!-- Skip Link -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__brand">
+                    <a href="index.html" class="logo-link">
+                        <img src="images/logo.png" alt="FooDies Logo" class="logo" width="150" height="40">
+                    </a>
+                </div>
+                
+                <nav class="header__nav" role="navigation" aria-label="Main navigation">
+                    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle menu">
+                        <span class="nav-toggle__icon"></span>
+                    </button>
+                    
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="culture.html" class="nav-link active" aria-current="page">Culture</a></li>
+                        <li><a href="ingredients.html" class="nav-link">Ingredients</a></li>
+                        <li><a href="recipes.html" class="nav-link">Recipes</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header__actions">
+                    <form class="search-form" role="search" aria-label="Search food culture">
+                        <input type="search" class="search-input" placeholder="Search food culture..." aria-label="Search">
+                        <button type="submit" class="search-button" aria-label="Submit search">
+                            <svg class="icon" aria-hidden="true" width="20" height="20">
+                                <use href="images/icons.svg#search"></use>
+                            </svg>
+                        </button>
+                    </form>
+                    
+                    <button class="theme-toggle" aria-label="Toggle dark mode">
+                        <svg class="icon" aria-hidden="true" width="20" height="20">
+                            <use href="images/icons.svg#moon"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container">
+                <div class="hero__content">
+                    <h1 id="hero-title" class="hero__title">Explore Food Cultures</h1>
+                    <p class="hero__text">Discover the rich cultural heritage behind global cuisines and learn about the traditions that shape our food choices</p>
+                    <div class="hero__cta">
+                        <a href="#featured" class="button button--primary">Explore Cultures</a>
+                        <a href="#about" class="button button--secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Cultures Section -->
+        <section class="featured" aria-labelledby="featured-title">
+            <div class="container">
+                <h2 id="featured-title" class="section-title">Featured Cultures</h2>
+                <div class="featured__grid">
+                    <article class="card">
+                        <div class="card__image">
+                            <img src="images/sushi.jpg" alt="Asian food culture">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Asian Food Culture</h3>
+                            <p class="card__text">Explore the diverse culinary traditions of Asia, from the importance of rice to the art of tea ceremonies.</p>
+                            <a href="/culture/asian" class="button button--primary">Learn More</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image">
+                            <img src="images/mussels.jpg" alt="Mediterranean food culture">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Mediterranean Food Culture</h3>
+                            <p class="card__text">Discover the healthy Mediterranean diet and its cultural significance in the region's lifestyle.</p>
+                            <a href="/culture/mediterranean" class="button button--primary">Learn More</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__image">
+                            <img src="images/tacos.jpg" alt="Latin American food culture">
+                        </div>
+                        <div class="card__content">
+                            <h3 class="card__title">Latin American Food Culture</h3>
+                            <p class="card__text">Learn about the vibrant food traditions of Latin America, from street food to family gatherings.</p>
+                            <a href="/culture/latin" class="button button--primary">Learn More</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Insights Section -->
+        <section class="about" aria-labelledby="insights-title">
+            <div class="container">
+                <h2 id="insights-title" class="section-title">Cultural Insights</h2>
+                <div class="about__content">
+                    <div class="about__text">
+                        <p>Food is more than just sustenance - it's a reflection of our cultural identity and heritage.</p>
+                        <p>Our cultural insights explore:</p>
+                        <ul class="about__list">
+                            <li>Historical influences on cuisine</li>
+                            <li>Traditional cooking methods</li>
+                            <li>Food symbolism and rituals</li>
+                            <li>Modern adaptations of classics</li>
+                        </ul>
+                    </div>
+                    <div class="about__image">
+                        <img src="images/oranges.jpg" alt="Cultural insights">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter" aria-labelledby="newsletter-title">
+            <div class="container">
+                <h2 id="newsletter-title" class="section-title">Stay Updated</h2>
+                <div class="newsletter__content">
+                    <p>Subscribe to our newsletter for weekly cultural insights, food history, and culinary traditions.</p>
+                    <form class="newsletter__form" role="form" aria-label="Newsletter subscription">
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Enter your email" aria-label="Email address" required>
+                        </div>
+                        <button type="submit" class="button button--primary">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <a href="index.html">
+                        <img src="images/logo.png" alt="FooDies Logo" class="footer__logo" width="120" height="32">
+                    </a>
+                    <p class="footer__tagline">Crunch your Hunger</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg class="icon" aria-hidden="true" width="24" height="24">
+                                <use href="images/icons.svg#facebook"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg class="icon" aria-hidden="true" width="24" height="24">
+                                <use href="images/icons.svg#instagram"></use>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg class="icon" aria-hidden="true" width="24" height="24">
+                                <use href="images/icons.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__links">
+                    <div class="footer__section">
+                        <h3 class="footer__title">More from FooDies</h3>
+                        <ul class="footer__list">
+                            <li><a href="newsletter.html">Newsletter</a></li>
+                            <li><a href="healthy-tips.html">Healthy Tips</a></li>
+                            <li><a href="archive.html">Archive</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__section">
+                        <h3 class="footer__title">Contact Us</h3>
+                        <ul class="footer__list">
+                            <li><a href="mailto:foodies@cook.org">foodies@cook.org</a></li>
+                            <li><a href="https://www.foodies.com">www.foodies.com</a></li>
+                            <li>+000-123-1234</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="copyright">
+                    © 2023 FooDies. All rights reserved. Acceptance of our 
+                    <a href="/user-agreement">User Agreement</a>,
+                    <a href="/privacy-policy">Privacy Policy</a> and
+                    <a href="/cookie-statement">Cookie Statement</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js" defer></script>
+</body>
+</html> 

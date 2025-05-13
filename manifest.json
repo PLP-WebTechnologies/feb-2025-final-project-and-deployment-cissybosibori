@@ -1,0 +1,104 @@
+{
+  "name": "FooDies",
+  "short_name": "FooDies",
+  "description": "Discover food cultures, ingredients, and recipes from around the world",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffda08",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Recipes",
+      "short_name": "Recipes",
+      "description": "Browse recipes from around the world",
+      "url": "/recipes",
+      "icons": [{ "src": "images/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Ingredients",
+      "short_name": "Ingredients",
+      "description": "Explore global ingredients",
+      "url": "/ingredients",
+      "icons": [{ "src": "images/icon-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Culture",
+      "short_name": "Culture",
+      "description": "Learn about food cultures",
+      "url": "/culture",
+      "icons": [{ "src": "images/icon-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": ["food", "lifestyle", "education"],
+  "lang": "en",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "screenshots": [
+    {
+      "src": "images/screenshot-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "platform": "wide",
+      "label": "FooDies Homepage"
+    },
+    {
+      "src": "images/screenshot-2.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "platform": "narrow",
+      "label": "FooDies Mobile View"
+    }
+  ]
+} 

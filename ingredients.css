@@ -1,0 +1,504 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  /* align-items: flex-end;
+  background-color: black;
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 1024px;
+  padding: 0 22px;
+  width: 1440px; */
+  max-width: 100%;
+}
+header {
+  background-color: #060606;
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+  padding: 10px 10px;
+}
+.user {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 25.5px;
+  left: 2.23%;
+  right: 90.86%;
+  border: 1px solid #ffda08;
+  border-radius: 50px;
+  background-color: #ffda08;
+  /* // margin: 35.12%, 90.86%, 46.45%, 2.23%; */
+}
+img.logo {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  /* left: 31.25%;
+  right: 31.25%; */
+  top: 0%;
+  padding-bottom: 90px;
+  left: 500px;
+  border-radius: 400px;
+}
+.header-rightSide {
+  position: absolute;
+  right: 2.23%;
+  top: 45px;
+  bottom: 52.78%;
+}
+.header-rightSide li {
+  display: inline;
+}
+.header-rightSide a {
+  color: #ffda08;
+  text-decoration: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 2px;
+}
+.header-rightSide a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.container-fluid {
+  background-color: #060606;
+  height: 60px;
+}
+.navigation li {
+  text-align: center;
+  display: inline;
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 4;
+}
+.navigation li a {
+  text-decoration: none;
+  padding: 0px 5px;
+}
+.navbar-home {
+  color: #ffffff;
+  position: absolute;
+  width: 66.7px;
+  height: 24px;
+  left: 10px;
+  top: 0px;
+}
+.navbar-culture {
+  color: #ffffff;
+  position: absolute;
+  width: 66.7px;
+  height: 24px;
+  left: 75px;
+  top: 0px;
+}
+.navbar-ingredients {
+  color: #ffda08;
+  position: absolute;
+  width: 66.7px;
+  height: 24px;
+  left: 150px;
+  top: 0px;
+}
+.navbar-recipe {
+  color: white;
+  position: absolute;
+  width: 66.7px;
+  height: 24px;
+  left: 261px;
+  top: 0px;
+}
+.navitems:hover {
+  text-decoration: underline solid white;
+  cursor: pointer;
+}
+/* .navigation li a:hover {
+  text-decoration: underline;
+} */
+.form-control {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 30px 0px 0px 30px;
+  box-shadow: 1px 1px #000000;
+}
+::placeholder {
+  color: black;
+  font-size: 18px;
+  font-family: "Inter";
+  opacity: 70%;
+  font-style: italic;
+}
+.btn {
+  color: black;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 0px 30px 30px 0px;
+  font-weight: bold;
+  box-shadow: 1px 1px #000000;
+}
+.btn:hover {
+  color: white;
+  background-color: #060606;
+  border: 1px solid white;
+}
+.form-control:hover {
+  border: 1px solid white;
+  box-shadow: none;
+}
+.me-2 {
+  margin-right: 0.1rem !important;
+}
+.footer {
+  align-items: flex-start;
+  align-self: center;
+  background-color: #060606;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  height: 253px;
+  justify-content: flex-start;
+  /* margin: 0px 0px; */
+  position: absolute;
+  top: 730px;
+  right: 10px;
+  left: 10px;
+  /* min-width: 1389px;
+  margin-right: 3px; */
+  /* width: auto; */
+}
+.overlap-group1-2 {
+  /* height: 43px; */
+  margin-top: -160px;
+  position: relative;
+  width: 1340px;
+}
+.logo-1 {
+  height: 433px;
+  left: 54px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 500px;
+}
+.left-side {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  left: 169px;
+  min-height: 108px;
+  position: absolute;
+  top: 251px;
+  width: 274px;
+}
+.crunch {
+  color: white;
+  font-family: var(--font-family-jockey-one);
+  font-size: var(--font-size-xxx1);
+  font-weight: 400;
+  height: 38px;
+  letter-spacing: 2.24px;
+  line-height: 38.4px;
+  margin-left: 1px;
+  min-width: 273px;
+  text-align: center;
+  white-space: nowrap;
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.social-icon {
+  height: 51px;
+  width: 260px;
+}
+.right-side {
+  align-items: center;
+  display: flex;
+  height: 139px;
+  left: 740px;
+  min-width: 605px;
+  position: absolute;
+  top: 186px;
+}
+.moreinfo {
+  color: white;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 3.85px;
+  min-height: 124px;
+  width: 247px;
+}
+.archive {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 239px;
+}
+.healthy-tips {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 239px;
+}
+.newsletter-1 {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 239px;
+}
+.more-from-foodies {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 239px;
+  font-weight: bold;
+}
+.line-3 {
+  height: 139px;
+  margin-left: 87px;
+  width: 4px;
+}
+.contact-us {
+  color: white;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 3.85px;
+  margin-left: 77px;
+  min-height: 124px;
+  width: 198px;
+}
+.wwwfoodiescom {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.foodiescookorg {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.text-1 {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+.contact-us-1 {
+  height: 26px;
+  letter-spacing: 1.4px;
+  line-height: 24px;
+  text-align: center;
+  white-space: nowrap;
+  width: 145px;
+  font-weight: bold;
+}
+.copyright {
+  color: white;
+  left: 171px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 386px;
+  margin-left: 100px;
+}
+.span-1 {
+  text-decoration: underline solid black;
+  color: #ffda08;
+  cursor: pointer;
+}
+.span-1:hover {
+  text-decoration: underline solid white;
+  color: white;
+}
+.line-1 {
+  height: 4px;
+  left: 71px;
+  position: absolute;
+  top: 295px;
+  width: 495px;
+}
+.line-2 {
+  height: 139px;
+  left: 696px;
+  position: absolute;
+  top: 186px;
+  width: 4px;
+}
+.footer-1 {
+  background-color: var(--midnight-moss);
+  height: 200px;
+  left: 0;
+  right: 10px;
+  position: absolute;
+  top: 169px;
+  width: 1340px;
+}
+.taste {
+  text-align: center;
+  color: white;
+  font-family: var(--font-family-jockey-one);
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 3.36px;
+  white-space: nowrap;
+}
+.in-season {
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1.4px;
+  white-space: nowrap;
+  font-size: 20px;
+}
+/* * {
+  box-sizing: border-box;
+} */
+/* .main {
+  align-items: flex-end;
+  display: flex;
+  height: 420px;
+  left: 10px;
+  max-width: 1250px;
+  position: absolute;
+  top: 245px;
+} */
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+.container2 {
+  align-content: center;
+  object-fit: contain;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 52%;
+  width: auto;
+  padding: 20px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 50%;
+  user-select: none;
+  -webkit-user-select: none;
+  text-decoration: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 50%;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: #ffda08;
+  
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #ffda08;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: rgb(7, 7, 7);
+  padding: 2px 16px;
+  color: #ffda08;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.centered {
+  -webkit-text-stroke: 0.5px black;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: bolder;
+  font-display: block;
+  font-family: 'lalezar', cursive;
+  text-decoration-style: none;
+}
+.centered-2 {
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  transform: translate(-50%, 50%);
+  -webkit-text-stroke: 1px black;
+}
+.explore {
+  color: #ffffff;
+  text-decoration: none;
+  -webkit-text-stroke: 1px black;
+}
+
